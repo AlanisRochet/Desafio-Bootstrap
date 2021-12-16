@@ -80,3 +80,13 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+/* servicios */
+.d-block {
+width: 640px;
+height: 500px;
+}
+.tit-ser{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
