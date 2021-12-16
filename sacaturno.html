@@ -40,6 +40,7 @@
         </nav>
     </header>
     <main>
+      <h3>Saca tu turno</h3>
       <div class="btn-group" role="group" aria-label="Basic example">
         <button type="button" class="btn btn-primary">UÑAS</button>
         <button type="button" class="btn btn-primary">PESTAÑAS</button>
@@ -80,79 +81,80 @@
         <button class="btn btn-primary me-md-2" type="button">Confirmar turno</button>
         <button class="btn btn-primary" type="button">Limpiar</button>
       </div>
+      <h3>Registrate</h3>
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Nombre Completo</label>
+          <input type="text" class="form-control" id="validationCustom01" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Mail</label>
+          <input type="text" class="form-control" id="validationCustom02" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Contraseña</label>
+          <div class="input-group has-validation">
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Direccion</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">Telefono</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Contacto de emergencia</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="1" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Declaro que esta informacion pertenece a mi.
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Registrarme</button>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Limpiar</button>
+        </div>
+      </form>
+      <footer class="footer">
+        <div class="footer-contacto">
+        <p class="foot-cont">Telefono de contacto: 4444-4444</p>
+        <p class="foot-cont">Mail: heartandsoul@gmail.com</p>
+        <p class="foot-cont">Buscanos en: Ig fb</p>
+        </div>
     </main>
-    <form class="row g-3 needs-validation" novalidate>
-      <div class="col-md-4">
-        <label for="validationCustom01" class="form-label">Nombre Completo</label>
-        <input type="text" class="form-control" id="validationCustom01" value="" required>
-        <div class="valid-feedback">
-          Looks good!
-        </div>
-      </div>
-      <div class="col-md-4">
-        <label for="validationCustom02" class="form-label">Mail</label>
-        <input type="text" class="form-control" id="validationCustom02" value="" required>
-        <div class="valid-feedback">
-          Looks good!
-        </div>
-      </div>
-      <div class="col-md-4">
-        <label for="validationCustomUsername" class="form-label">Contraseña</label>
-        <div class="input-group has-validation">
-          <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-          <div class="invalid-feedback">
-            Please choose a username.
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <label for="validationCustom03" class="form-label">Direccion</label>
-        <input type="text" class="form-control" id="validationCustom03" required>
-        <div class="invalid-feedback">
-          Please provide a valid city.
-        </div>
-      </div>
-      <div class="col-md-3">
-        <label for="validationCustom04" class="form-label">Telefono</label>
-        <select class="form-select" id="validationCustom04" required>
-          <option selected disabled value="">Choose...</option>
-          <option>...</option>
-        </select>
-        <div class="invalid-feedback">
-          Please select a valid state.
-        </div>
-      </div>
-      <div class="col-md-3">
-        <label for="validationCustom05" class="form-label">Contacto de emergencia</label>
-        <input type="text" class="form-control" id="validationCustom05" required>
-        <div class="invalid-feedback">
-          Please provide a valid zip.
-        </div>
-      </div>
-      <div class="col-12">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="1" id="invalidCheck" required>
-          <label class="form-check-label" for="invalidCheck">
-            Declaro que esta informacion pertenece a mi.
-          </label>
-          <div class="invalid-feedback">
-            You must agree before submitting.
-          </div>
-        </div>
-      </div>
-      <div class="col-12">
-        <button class="btn btn-primary" type="submit">Registrarme</button>
-      </div>
-      <div class="col-12">
-        <button class="btn btn-primary" type="submit">Limpiar</button>
-      </div>
-    </form>
-    <footer class="footer">
-      <div class="footer-contacto">
-      <p class="foot-cont">Telefono de contacto: 4444-4444</p>
-      <p class="foot-cont">Mail: heartandsoul@gmail.com</p>
-      <p class="foot-cont">Buscanos en: Ig fb</p>
-      </div>
       <h3 class="footer-text">2021 todos los derechos reservados corp. Alanis</h3>
     </footer>
 
