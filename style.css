@@ -18,3 +18,22 @@ body {
     margin: auto;
     background-color: black;
 }
+.lista-registro{
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+.link-registro{
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
