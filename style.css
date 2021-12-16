@@ -90,3 +90,27 @@ height: 500px;
     font-family: 'Playfair Display', serif;
     font-size: 50px;
 }
+/* turnos */
+.tit-tur{
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin: 15px;
+    padding: 4px; 
+    font-weight: bold;
+}
+.form-registro{
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.btn-primary{
+    margin: 10px;
+}
+/* turnos */
+
+
